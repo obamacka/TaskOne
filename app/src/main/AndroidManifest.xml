@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.taskone.app.TaskEditActivity"
+            android:label="@string/title_activity_task_edit" >
+        </activity>
+        <activity
+            android:name="com.example.taskone.app.TaskArchiveActivity"
+            android:label="@string/title_activity_task_archive" >
+        </activity>
     </application>
 
 </manifest>
